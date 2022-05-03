@@ -1,0 +1,9 @@
+<div class=" mt-4 research-box">
+  <form [formGroup]="searchForm" (ngSubmit)="getRepos()">
+    <h2 for="repository" class="search-title">Repository Search</h2>
+    <input type="text" id="repository" formControlName="repos">
+
+    <button class="btn btn-dark" [disabled]="!this.searchForm.valid">Search</button>
+  </form>
+
+</div>
