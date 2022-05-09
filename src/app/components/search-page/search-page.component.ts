@@ -8,8 +8,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./search-page.component.css']
 })
 export class SearchPageComponent implements OnInit {
-
+  // why do not init from start
   searchForm !: FormGroup;
+  // why do you need this value?
   repos !: any;
 
   constructor(private route: Router) { }

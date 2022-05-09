@@ -3,6 +3,7 @@
     <h2 for="repository" class="search-title">Repository Search</h2>
     <input type="text" id="repository" formControlName="repos">
 
+    <!-- Form have invalid method use instead of valid -->
     <button class="btn btn-dark" [disabled]="!this.searchForm.valid">Search</button>
   </form>
 

@@ -1,4 +1,4 @@
-<div class="card mt-5" *ngFor="let reposDetail of reposDetails">
+<div class="card mt-5" *ngFor="let reposDetail of reposDetails|async">
   <h5 class="card-header">{{reposDetail.full_name}}</h5>
   <div class="card-body">
     <h5 class="card-title">Date: {{reposDetail.updated_at | date}}</h5>

@@ -10,6 +10,7 @@ import { SearchPageComponent } from './components/search-page/search-page.compon
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
+// Please use separate module for feature for more info https://angular.io/guide/feature-modules
 @NgModule({
   declarations: [
     AppComponent,
